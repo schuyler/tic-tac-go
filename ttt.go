@@ -13,7 +13,7 @@ import (
 const emptyCell = 99
 const boardSize = 3
 const maxMoves  = boardSize * boardSize
-const maxDepth  = 5
+const maxDepth  = 6
 
 type Player byte
 type TicTacToe struct {

@@ -12,12 +12,12 @@ just about the least efficient way possible, purely as an excuse to learn how
 to use Go's types, channels, and goroutines.
 
 I will say that I am pretty impressed at the "expressiveness of Go" that Rob
-Pike keeps banging on about. Consider the following gem from ttt.go:
+Pike keeps banging on about. Consider the following line from ttt.go:
 
     game := NewGame([2]Player{'X','O'})
 
 In other words: This game is a new game, with 2 players, 'X' and 'O'. When you
-can write code like that *and* compile it to a native binary, well, now you're
+can write code like this *and* compile it to a native binary, well, now you're
 getting somewhere.
 
 I've posted the code on Github because why the heck not. Consider it public
